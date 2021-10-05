@@ -21,7 +21,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/e2e-modal-dialogs.js'
+        './test/**.js'
     ],
     // Patterns to exclude.
     exclude: [

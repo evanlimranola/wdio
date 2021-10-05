@@ -1,7 +1,7 @@
 import App from '../page-objects/App'
 import BrowserWindowsPage from '../page-objects/pages/BrowserWindowsPage'
 
-describe('E2E Testing for Buttons', () => {
+describe('E2E Testing for Browser Windows', () => {
     it('Should Reach the Browser Windows Page for Alerts, Frames, & Windows', () => {
         App.openHomePage();
         expect(browser).toHaveUrl('https://demoqa.com/')
