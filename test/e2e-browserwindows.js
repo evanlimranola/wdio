@@ -24,8 +24,14 @@ describe('E2E Testing for Browser Windows', () => {
 
     it('Should click the New Tab Button and open a New Sample Window', () => {
         BrowserWindowsPage.clickNewWindowMessageBtn()
+        var currHandle = browser.getWindowHandle()
         var allHandles = browser.getWindowHandles()
-
+        var nHandle = ''
+        for(var i = 0; i < allHandles.length; i++) {
+            if(allHandles[i] != currHandle) {
+               nHandle = allHandles[i] 
+            }
+        }
         browser.switchToWindow(nHandle)
         expect(allHandles).toHaveLength(2)
     })
