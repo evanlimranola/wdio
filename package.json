@@ -20,6 +20,7 @@
     "@babel/preset-env": "^7.15.4",
     "@babel/register": "^7.15.3",
     "@types/webdriverio": "^5.0.0",
+    "@wdio/allure-reporter": "^7.14.1",
     "@wdio/cli": "^7.12.1",
     "@wdio/local-runner": "^7.12.1",
     "@wdio/mocha-framework": "^7.12.0",
