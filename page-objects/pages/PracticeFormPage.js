@@ -76,7 +76,7 @@ class PracticeFormPage extends Base {
     }
 
     get stateDropdown() {
-        return $('//div[@id=\'state\']/div/following-sibling::div/div/div[contains(text(), \'Haryana\')]');
+        return $('//div[@id=\'state\']/div/following-sibling::div/div/div[contains(text(), \'NCR\')]');
     }
 
     get city() {
@@ -84,7 +84,7 @@ class PracticeFormPage extends Base {
     }
 
     get cityDropdown() {
-        return $('//div[@id=\'city\']/div/following-sibling::div/div/div[contains(text(), \'Karnal\')]');
+        return $('//div[@id=\'city\']/div/following-sibling::div/div/div[contains(text(), \'Delhi\')]');
     }
 
     get uploadFileBtn() {
@@ -237,7 +237,7 @@ class PracticeFormPage extends Base {
         expect(this.modalHobbies).toHaveText('Sports, Reading, Music')
         expect(this.modalPicture).toHaveText('SamplePhoto.jpg')
         expect(this.modalAddress).toHaveText('Test Address')
-        expect(this.modalStateCity).toHaveText('Haryana Karnal')
+        expect(this.modalStateCity).toHaveText('NCR Delhi')
     }
 }
 
