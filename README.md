@@ -31,3 +31,4 @@ The project is using WebdriverIO and shows how to handle different types of web 
 [chrome 94.0.4606.71 windows #0-0]
 [chrome 94.0.4606.71 windows #0-0] 2 passing (13.5s)
 ```
+**Will be updating to add more test cases and a reporter for the project**
