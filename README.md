@@ -18,7 +18,7 @@ The project is using WebdriverIO and shows how to handle different types of web 
   - Modal Dialogs
   - Alerts
 ## Sample Result
-'''
+```
  "spec" Reporter:
 ------------------------------------------------------------------
 [chrome 94.0.4606.71 windows #0-0] Running: chrome (v94.0.4606.71) on windows
@@ -30,4 +30,4 @@ The project is using WebdriverIO and shows how to handle different types of web 
 [chrome 94.0.4606.71 windows #0-0]    ✓ Should fill up the practice form successfully
 [chrome 94.0.4606.71 windows #0-0]
 [chrome 94.0.4606.71 windows #0-0] 2 passing (13.5s)
-'''
+```
