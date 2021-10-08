@@ -17,6 +17,17 @@ The project is using WebdriverIO and shows how to handle different types of web 
   - Browser Windows
   - Modal Dialogs
   - Alerts
+## Code
+The project uses the Page Object Model design pattern for easy maintenance in the future and code reusability. It will also help with managing 
+locators and reduce duplication.
+
+The project is separated into different folders that separates the locator and the actual test cases.
+![image](https://user-images.githubusercontent.com/26628386/136510989-498e3a8f-977b-435d-b28b-6a1203c0a1e4.png)
+### Page objects
+Page objects is divided into two different folders, **components** and **pages**. Components includes all parts of the webpage that are available in different pages. For example, a navbar or a menu that can be accessed throughout the wewbsite. On the other hand, pages are unique to themselves and have different web elements that are only avaiable on  that specific web page. For example, the login page only is the only page where the username and password field is available.
+### Tests
+In the tests folder, we will see the actual test cases that will run and be executed by the program. Each test file is separated from each other based on what page they are 
+working on. For the alerts page, the e2e-alerts.js test file is the one who will run the automated test for it.
 ## Sample Result
 ```
  "spec" Reporter:
