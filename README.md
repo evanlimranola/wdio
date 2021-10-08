@@ -97,7 +97,7 @@ describe('E2E Testing for Frames', () => {
 })
 ```
 
-## Sample Result
+### Sample Result
 ```
  "spec" Reporter:
 ------------------------------------------------------------------
