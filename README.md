@@ -69,8 +69,7 @@ class NestedFramesPage extends Base {
 ```
 
 ### Tests
-In the tests folder, we will see the actual test cases that will run and be executed by the program. Each test file is separated from each other based on what page they are 
-working on. For the alerts page, the e2e-alerts.js test file is the one who will run the automated test for it.
+The actual test cases that will run and be executed by the program can be seen in the tests folder. Each test file is separated from each other based on what page they are working on. For the alerts page, the e2e-alerts.js test file is the one who will run the automated test for it.
 
 ```
 describe('E2E Testing for Frames', () => {
